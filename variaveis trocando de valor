@@ -1,0 +1,9 @@
+ def calcula(a, b):
+    a, b = b, a   #isso aqui não é coisa de deus
+    print(f"A recebeu o valor {a} e B recebeu o valor {b} ")
+
+
+while True:
+    A = float(input("me diga o valor de A\n"))
+    B = float(input("me diga o valor de B\n"))
+    calcula(A, B)
