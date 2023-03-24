@@ -1,0 +1,10 @@
+def calcula(x, y, z):
+    soma = x*0.75 + y*0.85 + z*1.5
+    print(f"o total faturado é igual a  R${soma} ")
+
+
+while True:
+    x = int(input("me diga quantos pão frances foram vendidos:\n"))
+    y = int(input("me diga quantos pão doce foram vendidos:\n"))
+    z = int(input("me diga quantos quindim foram vendidos:\n"))
+    calcula(x, y, z)
