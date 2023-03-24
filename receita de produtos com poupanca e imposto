@@ -1,0 +1,14 @@
+def calcula(x, xp, y, yp, z, zp):
+    soma = x*xp + y*yp + z*zp
+    imposto = soma * 1.05
+    print(f"o total faturado é igual a  R${soma} será recolhido R${imposto} como impostos e voce deve poupar R${(soma-imposto)/10}")
+
+
+while True:
+    xp = float(input("me diga o preço do pão frances:\n"))
+    x = int(input("me diga quantos pão frances foram vendidos:\n"))
+    yp = float(input("me diga o preço do pão doce:\n"))
+    y = int(input("me diga quantos pão doce foram vendidos:\n"))
+    zp = float(input("me diga o preço do quindim:\n"))
+    z = int(input("me diga quantos quindim foram vendidos:\n"))
+    calcula(x, xp, y, yp, z, zp)
