@@ -1,0 +1,8 @@
+def calcula(ko, ka):
+    print(f"a hipotenusa é igual a {math.sqrt(ko**2+ka**2)}")
+
+
+while True:
+    ko = float(input("me de o cateto oposto"))
+    ka = float(input("me de o cateto adjacente"))
+    calcula(ko, ka)
