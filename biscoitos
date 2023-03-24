@@ -1,0 +1,5 @@
+biscoito = 3000/40
+
+while True:
+    a = float(input("me diga quantos biscoitos voce comeu:\n"))
+    print(f"vc consumiu {a*biscoito} calorias!")
