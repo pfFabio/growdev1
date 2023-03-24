@@ -1,0 +1,9 @@
+def calcula(pessoa1, pessoa2, pessoa3):
+    print(f"a soma da idade dessas pessoa é {pessoa1+pessoa2+pessoa3}")
+    
+    
+while True:
+    x = int(input("me diga a idade da 1ª pessoa\n"))
+    y = int(input("me diga a idade da 2ª pessoa\n"))
+    z = int(input("me diga a idade da 3ª pessoa\n"))
+    calcula(x, y, z)
