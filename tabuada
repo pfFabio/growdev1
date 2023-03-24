@@ -1,0 +1,9 @@
+def calcula(x):
+    print(f"a tabuada de {x} é:")
+    for i in range(10):
+        print(f"{x} * {i} = {i * x}")
+
+while True:
+    base = int(input("me de um numero de 1 a 9"))
+
+    calcula(base)
