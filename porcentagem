@@ -1,0 +1,6 @@
+def calcula(x):
+    print(f"considerando uma taxa de conversão de 23%, a empresa lucrará R$ {x*0.23} no ano que vem")
+
+while True:
+    x = float(input("me diga o faturamento projetado para o ano que vem:\n"))
+    calcula(x)
