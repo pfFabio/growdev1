@@ -1,0 +1,12 @@
+def calcula(a, ap, b, bp, c, cp):
+    nota = (a*ap + b * bp + c * cp) / 3
+    print(f"sua nota final foi: {nota}")
+
+while True:
+    a = float(input("me de a 1ª nota"))
+    ap = float(input("me de o peso da 1ª nota"))
+    b = float(input("me de a 2ª nota"))
+    bp = float(input("me de o peso da 2ª nota"))
+    c = float(input("me de a 3ª nota"))
+    cp = float(input("me de o peso da 3ª nota"))
+    calcula(a, ap, b, bp, c, cp)
