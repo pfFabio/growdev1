@@ -1,0 +1,9 @@
+def calcula(primeiro, segundo, terceiro):
+	soma = primeiro + segundo
+    print(f"somando o 1º com o 2º resulta em {soma}\ne ao dividir pelo terceiro {soma / terceiro}")
+
+while True:
+    primeiro = float(input("me de o primeiro"))
+    segundo = float(input("me de o segundo"))
+    terceiro = float(input("me de o terceiro"))
+    calcula(primeiro, segundo, terceiro)
