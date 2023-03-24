@@ -1,0 +1,7 @@
+def calcula(x):
+    print(f"o valor normalizado fica igual a {(x - 500) /500}")
+
+while True:
+    valor = int(input("me de um valior de 0 a 1000"))
+
+    calcula(valor)
