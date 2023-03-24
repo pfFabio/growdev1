@@ -1,0 +1,7 @@
+def calcula(quantidade):
+    print(f"vc precisará de:\n{quantidade * 1.5} xícaras de açucar\n{quantidade}xícaras de manteiga\n{quantidade * 2.75}xícaras de farinha")
+
+
+while True:
+    biscoito = int(input("quantos biscoitos voce quer fazer?"))/48
+    calcula(biscoito)
