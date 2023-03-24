@@ -1,0 +1,25 @@
+def calcula(compra, venda, tx, tx2):
+    totalc, totalv = 0, 0
+    for j in compra:
+        totalc += j
+    print(f"voce gastou R${totalc}nesse dia")
+    print(f"voce gastou R${tx * totalc} em taxas de compra")
+    for j in venda:
+        totalv += j
+    print(f"voce ganhou R${totalv}nesse dia")
+    print(f"voce gastou R${tx2 * totalv} em taxas de venda")
+    if totalc <= totalv:
+        print(f"você ganhou R${totalv - totalc}")
+    else:
+        print(f"você perdeu R${totalc - totalv}")
+
+while True:
+    taxa = float(input("me diga a taxa cobrada no dia das compras"))
+    taxa2 = float(input("me diga a taxa cobrada no dia das vendas"))
+    acoes = int(input("me diga de quantas empresas diferentes vc comprou ações\n"))
+    precos, vendas, i = [], [], 0
+    while i < acoes:
+        precos += [float(input(f"me diga me diga o valor de compra {i + 1}º ação\n"))]
+        vendas += [float(input(f"me diga por quanto vc vendeu a {i + 1}º ação\n"))]
+        i += 1
+    calcula(precos, vendas, taxa, taxa2)
