@@ -1,0 +1,9 @@
+ def calcula_volume(cumprimento, altura, largura):
+        print(f"essa caixa tem volume {cumprimento*altura*largura}")
+
+while True:
+    cumprimento = float(input("me de o cumprimento"))
+    altura = float(input("me de o altura"))
+    largura = float(input("me de o largura"))
+
+    calcula_volume(cumprimento, altura, largura)
