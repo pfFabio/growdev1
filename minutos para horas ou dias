@@ -1,0 +1,7 @@
+def calcula(x):
+    print(f"{x} minutos é igual a {x/60} horas ou {x/1440} dias")
+
+while True:
+    minutos = int(input("me de a quantidade de minutos"))
+
+    calcula(minutos)
