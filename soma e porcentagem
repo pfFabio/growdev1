@@ -1,0 +1,14 @@
+def calcula(lista):
+    soma = 0
+    for i in lista:
+        soma += i
+    total = soma + soma * 0.06
+    print(f"o subtotal de vendas foi R${soma}\no valor do imposto foi R${soma * 0.06}\no total foi R${total}")
+
+
+while True:
+	lista = []
+    for i in range(5):
+        A = float(input(f"me diga o valor do {i+1}º produto:\n"))
+        lista += [A]
+    calcula(lista)
