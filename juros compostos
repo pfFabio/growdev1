@@ -1,0 +1,11 @@
+def calcula(tx, aplicacao, meses):
+    print("o montante final é igual a R$ %.2f" % round((aplicacao*(((1+tx)**meses) - 1)/tx), 2))
+
+
+while True:
+    taxa = float(input("me de a taxa"))
+    tempo = int(input("me de os meses"))
+    investimento = float(input("me de o valor da aplicação mensal"))
+    
+    calcula(taxa, investimento, tempo)
+    
