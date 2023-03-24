@@ -1,0 +1,9 @@
+def calcula(x, y, z):
+    soma = x*365 + y*31 + z
+    print(f"essa pessoa está viva a {soma} dias")
+
+while True:
+    x = int(input("me diga os anos"))
+    y = int(input("me diga os meses"))
+    z = int(input("me diga os dias"))
+    calcula(x, y, z)
