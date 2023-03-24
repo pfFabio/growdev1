@@ -1,0 +1,11 @@
+def calcula(a, b):
+    print(f"a + b = {a + b}")
+    print(f"a - b = {a - b}")
+    print(f"a * b = {a * b}")
+    print(f"a / b = {a / b}")
+
+
+while True:
+    A = float(input("me diga o valor de A\n"))
+    B = float(input("me diga o valor de B\n"))
+    calcula(A, B)
