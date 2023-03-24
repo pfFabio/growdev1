@@ -1,0 +1,10 @@
+def calcula(x, y, z):
+    média = x*0.2 + y*0.3 + z*0.5
+    print(f"sua nota final foi {média}")
+
+while True:
+    nota1 = float(input("me de a 1ª nota"))
+    nota2 = float(input("me de a 2ª nota"))
+    nota3 = float(input("me de a 3ª nota"))
+
+    calcula(nota1, nota2, nota3). 
