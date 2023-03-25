@@ -5,7 +5,7 @@ def calcula(x, y, z):
      print(f"o z time tem {z*100/soma}% da torcida\n")
 
 while True:
-    x = float(input("me de a quantidade de torcedores de x"))
-    y = float(input("me de a quantidade de torcedores de y"))
-    z = float(input("me de a quantidade de torcedores de z"))
+    x = int(input("me de a quantidade de torcedores de x"))
+    y = int(input("me de a quantidade de torcedores de y"))
+    z = int(input("me de a quantidade de torcedores de z"))
     calcula(x, y, z)
